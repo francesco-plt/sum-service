@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sum_service_1691506759790-push-trigger-input-set
+  identifier: Build_sum_service_1691506759790pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sum_service_1691506759790
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
